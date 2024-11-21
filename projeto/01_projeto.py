@@ -3,7 +3,7 @@ import pandas as pd
 
 import streamlit as st
 
-pasta_superstore_sales = Path(__file__).parent.parent / 'superstore_sales'
+pasta_superstore_sales = Path(__file__).parent / 'superstore_sales'
 caminho_superstore = pasta_superstore_sales / 'train.csv'
 
 df_train = pd.read_csv('train.csv', decimal=',')
